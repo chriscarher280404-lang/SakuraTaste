@@ -1,0 +1,129 @@
+/*Estilos generales aplicados a toda la página----------------------------*/
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #2B2B2B;
+}
+
+.border-color-pers {
+    border-bottom-color: palevioletred !important;
+}
+
+.address {
+    background-color: #F5E6D3;
+}
+
+.coments {
+    height: 200px;
+}
+
+.btn {
+    background-color: rgb(188, 149, 120);
+}
+
+/*Ajustes del footer*/
+footer {
+    background-color: #2B2B2B;
+}
+
+.bi {
+    font-size: 40px;
+}
+
+.border {
+    border-color: palevioletred !important;
+}
+
+
+/*Aplicación de estilos responsivos*----------------------------/
+
+/*Texto en pantalla de telefono*/
+
+.text_titles {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+}
+
+.text_contain {
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+}
+
+/*Los estilos se aplican cuando cuando la pantalla mide 990px o más*/
+
+@media (min-width:990px) {
+    .text_titles {
+        font-size: 20px;
+    }
+
+    .text_contain {
+        font-size: 18px;
+    }
+}
+
+/*Estilo responsivo de las cards*/
+
+.card {
+    max-width: 100%;
+    margin: auto 1rem;
+    border: none;
+}
+
+/*Estilos aplicados para los elementos del header----------------------------*/
+
+.logo_restaurante {
+    width: 5rem;
+}
+
+header {
+    background-color: #F5E6D3;
+}
+
+/*Estilos aplicados para el carrusel----------------------------*/
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.text-carrousel-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px black;
+    z-index: 10;
+    width: 100%;
+    max-width: 90%;
+    padding: 60px 10px;
+    margin-top: 50px;
+}
+
+/*Estilos del carrusel de opiniones------------------------------*/
+
+.feedback-carrousel{
+    width: 100%;
+    overflow: hidden;
+}
+
+.carrousel-track{
+    display: flex;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+}
+
+.feedback-item{
+    white-space: nowrap;
+}
+
+@keyframes scroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}

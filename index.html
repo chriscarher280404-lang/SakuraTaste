@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Restaurante</title>
+</head>
+
+<body>
+    <header class="fixed-top rounded-5 rounded-top-0 shadow" data-aos="fade-down">
+        <nav class="navbar navbar-expand-md px-3 container">
+            <a class="navbar-brand" aria-disabled="true">
+                <img src="IMAGES/Logo_restaurante.PNG" class="logo_restaurante d-none d-md-block">
+                <img src="IMAGES/Imagotipo.png" class="logo_restaurante d-block d-md-none" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="menuNav">
+                <ul class="navbar-nav fw-bold">
+                    <li class="nav-item"><a href="#menu" class="nav-link">Menú</a></li>
+                    <li class="nav-item"><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                    <li class="nav-item"><a href="#opiniones" class="nav-link">Opiniones</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-aos="fade-left">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="IMAGES/Carrusel_foto_1.jpg" class="d-block w-100" alt="">
+                    <div class="text-carrousel-center">
+                        <p class="text-white fw-bold text-center">Deja que tu paladar viaje a otro país</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMAGES/Carrusel_foto_2.jpg" class="d-block w-100" alt="">
+                    <div class="text-carrousel-center">
+                        <p class="text-white fw-bold text-center">Ven y disfruta de los mejores platillos, traidos desde
+                            Japón</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMAGES/Carrusel_foto_3.jpeg" class="d-block w-100" alt="">
+                    <div class="text-carrousel-center">
+                        <p class="text-white fw-bold text-center">La autentica gastronomía japonesa</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </main>
+
+    <section id="menu">
+        <div class="container">
+            <div data-aos="fade-right">
+                <p class="text_titles text-center pt-2 fw-bold">Bienvenido a Sakura Taste, donde traemos una parte de
+                    Japón,
+                    directo a tu mesa</p>
+                <p class="text_titles text-center mt-2 border-bottom border-3 border-color-pers">Prueba todos nuestros
+                    platillos</p>
+            </div>
+            <div class="row text-center justify-content-center align-items-stretch">
+                <div class="col-12 col-md-6 col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="card h-100 shadow">
+                        <img src="IMAGES/Platillo_1_Sushi.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text fw-bold text_titles">Sushi</p>
+                            <p class="text_contain">Delicados rollos de arroz sazonado rellenos con pescado fresco y
+                                vegetales.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="card h-100 shadow">
+                        <img src="IMAGES/Platillo_2_Sashimi.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text fw-bold text_titles">Sashimi</p>
+                            <p class="text_contain">Finos cortes de pescado fresco de alta calidad.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="card h-100 shadow">
+                        <img src="IMAGES/Platillo_3_Ramen.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text fw-bold text_titles">Ramen</p>
+                            <p class="text_contain">Sopa japonesa de fideos con caldo aromático.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="card h-100 shadow">
+                        <img src="IMAGES/Platillo_4_Tempura.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text fw-bold text_titles">Tempura</p>
+                            <p class="text_contain">Crujientes verduras y camarones fritos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="card h-100 shadow">
+                        <img src="IMAGES/Platillo_5_Tempura.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <p class="card-text fw-bold text_titles">Onigiri</p>
+                            <p class="text_contain">Triángulos de arroz rellenos envueltos en alga nori.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-aos="fade-up" id="ubicacion">
+            <p class="border-bottom text-center text_titles fw-bold border-color-pers border-4">¿Quieres probar nuestros
+                otros
+                platillos?</p>
+        </div>
+    </section>
+    <section class="address mb-4" data-aos="fade-up">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-md-6">
+                    <p class="text_titles fw-bold mt-3">Ven y conócenos</p>
+                    <div class="ratio ratio-1x1 rounded-5 overflow-hidden">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.845395570345!2d-99.23582498562902!3d19.841907735025217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d22cee9773d265%3A0x405581b08c001dd4!2sWalmart!5e0!3m2!1ses!2smx!4v1765148527470!5m2!1ses!2smx"
+                            allowfullscreen="" style="border:0;" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="p-3 rounded-5"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="text_titles fw-bold mt-3">¡Tu opinión también es importante!</p>
+                    <form>
+                        <p class="fw-bold text_titles">Nombre</p>
+                        <input type="text" class="form-control w-75 mx-auto">
+                        <p class="fw-bold text_titles">Correo</p>
+                        <input type="email" class="form-control w-75 mx-auto">
+                        <p class="fw-bold text_titles">Número telefónico</p>
+                        <input type="text" class="form-control w-75 mx-auto">
+                        <p class="fw-bold text_titles">Comentario</p>
+                        <textarea class="form-control w-75 mx-auto coments"></textarea>
+                        <button type="submit" class="btn fw-bold mt-3 mb-4">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container border-bottom border-color-pers border-4 mb-3" data-aos="fade-right">
+            <p class="text_titles text-center fw-bold">Lee algunas opiniones de
+                nuestros clientes</p>
+            <p class="text_contain mb-4  text-center">Si nos das tu opinión, apareceras con las demás personas aquí</p>
+        </div>
+        <section id="opiniones" data-aos="fade-right">
+            <div class="feedback-carrousel">
+                <div class="carrousel-track">
+                    <div class="feedback-item container shadow m-1 rounded-5">
+                        <p class="text_titles fw-bold">Eduardo Montes</p>
+                        <p class="text_contain">Un hermoso lugar, la atencion es genial y el personal muy amable</p>
+                    </div>
+                    <div class="feedback-item container shadow m-1 rounded-5">
+                        <p class="text_titles fw-bold">Alejandra Martinez</p>
+                        <p class="text_contain">Un lugar muy bonito, lo recomiendo mucho</p>
+                    </div>
+                    <div class="feedback-item container shadow m-1 rounded-5">
+                        <p class="text_titles fw-bold">Luis Alberto</p>
+                        <p class="text_contain">La atencion es espectacular y no se diga la comida, recomendado al 100%
+                        </p>
+                    </div>
+                    <div class="feedback-item container shadow m-1 rounded-5">
+                        <p class="text_titles fw-bold">Miguel Angel</p>
+                        <p class="text_contain">La comida, la atención y las bebidas son increibles!!</p>
+                    </div>
+                    <div class="feedback-item container shadow m-1 rounded-5">
+                        <p class="text_titles fw-bold">Dominik Martinez</p>
+                        <p class="text_contain">Es un lugar increible, tienen "dia del cumpleañero", yo fui y todo lo
+                            que pedi fue por cuenta de la casa</p>
+                    </div>
+
+                    <!--Duplicado para crear el ciclo infinito-->
+                    <div class="feedback-item container shadow m-1 rounded-5">
+                        <p class="text_titles fw-bold">Eduardo Montes</p>
+                        <p class="text_contain">Un hermoso lugar, la atencion es genial y el personal muy amable</p>
+                    </div>
+                    <div class="feedback-item container shadow m-1 rounded-5">
+                        <p class="text_titles fw-bold">Alejandra Martinez</p>
+                        <p class="text_contain">Un lugar muy bonito, lo recomiendo mucho</p>
+                    </div>
+                    <div class="feedback-item container shadow m-1 rounded-5">
+                        <p class="text_titles fw-bold">Luis Alberto</p>
+                        <p class="text_contain">La atencion es espectacular y no se diga la comida, recomendado al 100%
+                        </p>
+                    </div>
+                    <div class="feedback-item container shadow m-1 rounded-5">
+                        <p class="text_titles fw-bold">Miguel Angel</p>
+                        <p class="text_contain">La comida, la atención y las bebidas son increibles!!</p>
+                    </div>
+                    <div class="feedback-item container shadow m-1 rounded-5">
+                        <p class="text_titles fw-bold">Dominik Martinez</p>
+                        <p class="text_contain">Es un lugar increible, tienen "dia del cumpleañero", yo fui y todo lo
+                            que pedi fue por cuenta de la casa</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer data-aos="fade-up" id="contacto">
+        <div class="container text-center">
+            <p class="text_titles text-white border-bottom mt-2">Sakura Taste</p>
+            <div class="row align-items-start text-start p-3">
+                <div class="col-12 col-md-4 text-center">
+                    <p class="fw-bold text_titles text-white text-center">¡Contactanos!</p>
+                    <i class="bi bi-facebook text-white"></i>
+                    <i class="bi bi-instagram text-white ms-4"></i>
+                    <i class="bi bi-whatsapp text-white ms-4"></i>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <p class="text_titles fw-bold text-white">Ubicanos en nuestras diferentes sucursales</p>
+                    <p class="text_contain text-white">📍 Av. Reforma #245, Col. Centro, C.P. 06000, Ciudad de México,
+                        México.</p>
+                    <p class="text_contain text-white">📍 Calle Juárez #128, Col. Roma Norte, C.P. 06700, Ciudad de
+                        México, México.</p>
+                    <p class="text_contain text-white">📍 Av. Insurgentes Sur #560, Col. Del Valle, C.P. 03100, Ciudad
+                        de México, México.</p>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <p class="text_titles fw-bold text-white">Nuestros horarios</p>
+                    <p class="text_contain text-white">Lunes a viernes</p>
+                    <p class="text_contain text-white">8:00 am - 8:00 pm</p>
+                    <p class="text_contain text-white">Sábados</p>
+                    <p class="text_contain text-white">10:00 am - 8:00 pm</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
